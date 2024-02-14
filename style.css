@@ -1,0 +1,568 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'PP Fraktion Sans';
+    src: url('PPFraktionSans-Medium.eot');
+    src: url('PPFraktionSans-Medium?#iefix') format('embedded-opentype'),
+        url('PPFraktionSans-Medium.woff2') format('woff2'),
+        url('PPFraktionSans-Medium.woff') format('woff'),
+        url('PPFraktionSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+.projekt-body {
+
+    max-height: 100vh;
+    max-width: 100vw
+}
+
+.startseite-body {
+
+    margin: 0 0 0 0;
+    width: 2000px;
+    max-height: 100vh;
+    max-width: 100vw
+}
+
+.kopfzeile-startseite {
+
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 18px;
+    position: fixed;
+    padding: 10px 0px 0px 10px;
+
+}
+
+.work-box {
+
+    display: flex;
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    padding-bottom: 60px;
+
+}
+
+.work-div {
+
+    padding: 98px 20px 0 10px;
+    width: 25%;
+    min-width: 224px;
+
+}
+
+.my {
+
+    margin-top: -3px;
+}
+
+.work {
+
+    width: 73px;
+    margin-bottom: -3px;
+    padding-top: 2px;
+
+}
+
+table {
+
+
+    border-collapse: collapse;
+    width: 75%;
+    max-width: 810px;
+    padding: 0 10px 0 0;
+    position: relative;
+    margin: 110px 0 0 0;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 0;
+    width: 40%;
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 23px;
+    min-width: 325px;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+a {
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 23px;
+}
+
+.random-link {
+
+    height: 102px;
+    padding: 0px 0 0 0;
+    position: fixed;
+    margin: -28px 0 0 -5px;
+
+}
+
+.random-text {
+
+    position: relative;
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 23px;
+    margin: 10px 0 0 10px;
+
+}
+
+a:link {
+
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+
+    color: black;
+    background-color: transparent;
+    text-decoration: line-through;
+
+}
+
+a:hover {
+
+    color: black;
+    background-color: transparent;
+    text-decoration: line-through;
+
+}
+
+a:active {
+
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.projekt-body {
+
+    margin: 0px;
+    padding-top: 0px;
+
+}
+
+.kopfzeile-projekt {
+
+    display: flex;
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    padding-bottom: 60px;
+
+}
+
+.kopfzeile__menu {
+
+    padding: 10px 0px 0px 10px;
+    font-size: 21px;
+    line-height: 18px;
+    position: absolute;
+    width: 153px
+}
+
+.kopfzeile__text__1 {
+
+    font-size: 21px;
+    line-height: 23px;
+    padding: 110px 20px 0 10px;
+    width: 25%;
+    min-width: 224px;
+
+}
+
+.kopfzeile__text__gletscher {
+
+    font-size: 21px;
+    line-height: 23px;
+    padding: 85px 0 0 0;
+
+}
+
+.kopfzeile__text {
+
+    font-size: 21px;
+    line-height: 23px;
+    padding: 0 10px 0 0;
+    position: relative;
+    width: 60%;
+    text-align: left;
+    margin: 110px 0 0 0;
+    max-width: 600px;
+
+}
+
+.noah-stretch {
+
+    display: inline-block;
+    animation: stretch-vertical 0.4s infinite alternate;
+    transform-origin: center bottom;
+}
+
+@keyframes stretch-vertical {
+    0% {
+        transform: scaleY(1);
+    }
+
+    100% {
+        transform: scaleY(1.15);
+    }
+}
+
+@keyframes stretch-horizontal {
+    0% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(1.35);
+    }
+}
+
+.random {
+
+    height: 55px;
+    position: fixed;
+
+}
+
+.random-link-project-seite {
+
+    height: 40px;
+    padding: 0px 0 0 0;
+    position: absolute;
+    margin: -7px 0 0 -1px;
+
+}
+
+.back-home-div {
+
+    padding-top: 28px;
+
+}
+
+.back-home {
+
+    padding-top: 1px;
+    display: inline-block;
+    animation: stretch-horizontal 0.4s infinite alternate;
+    transform-origin: right;
+}
+
+.back-home:hover {
+
+    color: black;
+    background-color: transparent;
+    text-decoration: none !important;
+
+}
+
+.projekt-images {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100vw;
+    padding: 0 10px 10px 10px;
+
+}
+
+.projekt-image {
+
+    width: 100vw;
+    max-width: 650px;
+
+}
+
+.projekt-image-adelboden {
+
+    width: 30%;
+    max-width: 114px;
+    height: 50% ;
+
+}
+
+.projekt-image-adelboden-map {
+
+    width: 95%;
+    height: 50%;
+    max-width: 1354px;
+
+}
+
+.projekt-image-adelboden-detail {
+
+    width: 24%;
+    max-width: 330px;
+    height: 52%;
+
+}
+
+.projekt-image-covers {
+
+    height: 70vw;
+    max-height: 470px;
+
+}
+
+.projekt-image-covers-book {
+
+    height: 60vw;
+    max-height: 450px;
+
+}
+
+.projekt-image-jardin {
+
+    width: 85vw;
+    max-width: 830px;
+    height: 100%;
+    padding: 0 0 0 0;
+
+}
+
+.projekt-image-covers-jardin {
+
+    width: 45vw;
+    max-width: 437px;
+    height: 100%;
+
+}
+
+.projekt-image-bagong {
+
+    width: 63vw;
+    max-width: 420px;
+    height: 100%;
+
+}
+
+.projekt-image-bagong-insta {
+
+    height: 100%;
+    width: 100vw;
+    max-width: 479px;
+    padding: 20px 25px 0 0;
+
+}
+
+.projekt-image-logos-1 {
+
+    padding: 10px 0 0 0;
+
+}
+
+.projekt-image-logos-2 {
+
+    padding: 10px 0 0 0;
+
+}
+
+.projekt-image-logos-3 {
+
+    padding: 10px 0 0 0;
+
+}
+
+.projekt-image-gletscher-1 {
+
+    width: 90%;
+    height: 90%;
+    padding: 25px 20px 15px 50px;
+
+}
+
+.projekt-image-gletscher {
+
+    width: 97vw;
+    padding: 0 0 0 0;
+
+}
+
+.projekt-image-gletscher-9 {
+
+    width: 97vw;
+    padding: 0 0 0 0;
+
+}
+
+.projekt-image-postcards {
+
+    padding: 0 0 0 0;
+}
+
+.projekt-image-poster-1 {
+
+    padding: 0 0 0 0;
+}
+
+.projekt-image-fish {
+
+    width: 85vw;
+    max-width: 460px;
+    height: 100%;
+    padding: 0 0 0 0;
+
+}
+
+.projekt-image-notes {
+
+    width: 85vw;
+    max-width: 460px;
+    height: 100%;
+    padding: 0px 0px 0px 0;
+
+}
+
+
+.noah-suparna-body {
+
+    margin: 0 0 0 0;
+
+}
+
+
+.noah-suparna-kopfzeile {
+
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 18px;
+    text-transform: uppercase;
+    position: fixed;
+    padding: 10px 0px 20px 10px;
+
+}
+
+.noah-suparna-text {
+
+    text-decoration: line-through;
+
+}
+
+.noah-suparna-about {
+
+    margin: 116px 0 0px 10px;
+    padding: 0px 10px 0 0;
+    width: 100vw;
+    font-family: PP Fraktion Sans;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 23px;
+    text-transform: none;
+    max-width: 624px;
+    position: absolute;
+
+}
+
+.noah-suparna-portrait {
+
+    height: 60vw;
+    max-height: 400px;
+    position: fixed;
+    bottom: 2px;
+
+}
+
+.websites {
+
+    width: 80%;
+    height: 800px;
+
+
+}
+
+.website-link {
+
+    margin-right: 20px;
+    width: 80vw;
+    padding-top: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 650px) {
+
+    .work-box {
+
+        display:block;
+        font-family: PP Fraktion Sans;
+        font-weight: 500;
+        padding-bottom: 60px;
+    
+    }
+
+
+
+    table {
+
+        border-collapse: collapse;
+        width: 75%;
+        max-width: 810px;
+        padding: 0 10px 0 0;
+        position: relative;
+        margin: -1px 0 0 10px;
+    
+    }
+
+
+
+}
